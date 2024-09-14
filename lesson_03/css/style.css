@@ -1,0 +1,86 @@
+@import url("reset.css");
+
+/* comment */
+
+* {
+	color: blue;
+}
+
+h1 {
+	color: #005564;
+}
+h2 {
+	color: #664799;
+}
+p {
+	color: #838383;
+}
+a {
+	color: #0400ff;
+}
+li{
+	color: #838383;
+}
+
+.title {
+	color: #00ff4c;
+}
+.text {
+	color: #00ff4c;
+}
+.link {
+	color: #00ff4c;
+}
+.item{
+	color: #00ff4c;
+}
+
+.block-1.promo h2,
+.block-1.promo p,
+.block-1.promo a,
+.block-1.promo li {
+	color: #f76fe0;
+}
+
+.block-2 h2.title {
+	color: #4208af;
+}
+.block-2 p.text {
+	color: #4208af;
+}
+.block-2 a.link {
+	color: #4208af;
+}
+.block-2 li.item {
+	color: #4208af;
+}
+
+.block-3 [class*="te"] {
+	color: #000000;
+}
+[style*="black"] {
+	color: white !important;
+}
+[target*="_blank"] {
+	color: peru;
+}
+
+#unic-name * {
+	color: red;
+}
+#unic-name ul.list li {
+	color: #008eb9;
+}
+#unic-name ol.list li {
+	color: #9400b9;
+}
+
+.block-test > p {
+	color: #008cff;
+}
+.block-test p.second ~ p {
+	color: #00ff55;
+}
+.block-test p + p {
+	color: #ff00bf;
+}
