@@ -321,8 +321,6 @@ header h1 {
 	inline-size: 50%;
 	padding-inline: 15px;
 	margin-block-end: 32px;
-
-	margin: 0 0 32px;
 	vertical-align: top;
 	font-size: 12px;
 	line-height: 1.5;
@@ -344,6 +342,6 @@ footer {
 	text-align: center;
 	font-weight: 700;
 	letter-spacing: 2px;
-	color: #8051cc;
+	color: #372b4b;
 	background-color: #d6d6d6;
 }
