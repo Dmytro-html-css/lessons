@@ -133,6 +133,7 @@ header h1 {
 .section-lpts-1 .section-container {
 	max-width: 520px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .section-lpts-1 h2 {
 	margin-bottom: 16px;
@@ -294,6 +295,7 @@ header h1 {
 .section-lpts-2 .section-container {
 	max-inline-size: 520px;
 	margin-inline: auto;
+	overflow: hidden;
 }
 .section-lpts-2 h2 {
 	margin-block-end: 16px;
