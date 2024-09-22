@@ -69,6 +69,7 @@ header h1 {
 	margin-bottom: 30px;
 }
 .section-dtw-1 .heading img {
+	max-width: 70px;
 	vertical-align: middle;
 	margin-right: 14px;
 	border: 1px solid #262626;
@@ -166,6 +167,7 @@ header h1 {
 	color: #5d6970;
 }
 .section-lpts-1 .item img {
+	max-width: 36px;
 	margin-bottom: 14px;
 }
 .section-lpts-1 .item h3 {
@@ -228,6 +230,7 @@ header h1 {
 	margin-block-end: 30px;
 }
 .section-dtw-2 .heading img {
+	max-inline-size: 70px;
 	vertical-align: middle;
 	margin-inline-end: 14px;
 	border: 1px solid #262626;
@@ -328,6 +331,7 @@ header h1 {
 	color: #5d6970;
 }
 .section-lpts-2 .item img {
+	max-inline-size: 36px;
 	margin-bottom: 14px;
 }
 .section-lpts-2 .item h3 {
