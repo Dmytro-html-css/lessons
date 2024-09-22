@@ -118,6 +118,7 @@ header h1 {
 	margin-right: 30px;
 	padding: 8px;
 	text-align: center;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.25;
 	color: #fff;
@@ -277,6 +278,7 @@ header h1 {
 	padding-block: 8px;
 	padding-inline: 8px;
 	text-align: center;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.25;
 	color: #fff;
