@@ -29,7 +29,7 @@ h1 {
 	background-color: #141414;
 }
 .promo-block-wrapper{
-	background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%) left top / 100% 580px repeat-x, linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%) left bottom / 100% 580px repeat-x, url("../img/bg-films.png") center top / auto no-repeat;
+	background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%) left top / 100% 580px repeat-x, linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%) left bottom / 100% 580px repeat-x, url("../img/bg-films.png") center top / cover no-repeat;
 }
 .promo-block-t {
 	max-width: 1626px;
