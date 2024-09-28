@@ -84,7 +84,7 @@ h1 {
 }
 .block-features {
 	margin: 0 -15px;
-	padding: 80px 0;
+	padding: 80px 0 50px;
 	font-size: 0;
 }
 .block-features .description,
@@ -118,6 +118,9 @@ h1 {
 	font-size: 20px;
 	line-height: 1.6;
 }
+.block-features ul {
+	margin-bottom: 30px;
+}
 .block-features ul li {
 	margin-bottom: 14px;
 	padding-top: 2px;
@@ -128,7 +131,7 @@ h1 {
 }
 .block-features .image {
 	text-align: right;
-	padding-bottom: 46px;
+	padding-bottom: 62px;
 }
 .footer {
 	padding: 25px 15px 20px;
