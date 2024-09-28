@@ -37,6 +37,9 @@ h1 {
 	padding: 195px 15px;
 	text-align: center;
 }
+.promo-t img {
+	max-width: 470px;
+}
 .promo-b {
 	max-width: 1126px;
 	margin: -64px auto 0;
