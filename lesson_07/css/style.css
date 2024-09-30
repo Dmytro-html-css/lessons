@@ -262,7 +262,7 @@ h1 {
 	margin-left: -48px;
 	background-image: url("../img/bg-quotes.png");
 }
-.post mark > p {
+.post mark > span {
 	display: inline-block;
 	padding-top: 3px;
 	margin-left: 32px;
