@@ -135,9 +135,12 @@ h1 {
 	color: #1e1b39;
 }
 .block-timeline .area-l h2::before {
-	content: "⌛";
+	content: "";
 	display: block;
-	margin-bottom: 34px;
+	width: 88px;
+	height: 90px;
+	margin-bottom: 38px;
+	background-image: url("../img/bg-emoji-time.png");
 }
 .block-timeline .area-l .holder p {
 	letter-spacing:-.04px;
