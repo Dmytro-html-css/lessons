@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	background-color: #333;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 100px 15px;
+	margin: 0 auto;
+}
+
+
+
+
+.image {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 40px;
+	line-height: 200px; /* Устанавливаем высоту строки, равную высоте контейнера */
+	text-align: center; /* Центрируем по горизонтали */
+	border: 1px solid black; /* Для наглядности */
+}
+
+.image img {
+	vertical-align: middle; /* Центрируем изображение по вертикали */
+	width: 80px;
+	height: 80px;
+}
+
+
+
+
+.image2 {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 40px;
+	text-align: center; /* Центрируем по горизонтали */
+	border: 1px solid black; /* Для наглядности */
+	font-size: 0; /* Убираем пробелы между строчными элементами */
+}
+
+.image2 .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle; /* Центрирование по вертикали */
+}
+
+.image2 img {
+	display: inline-block; /* Делаем изображение строчно-блочным элементом */
+	vertical-align: middle; /* Центрируем изображение по вертикали */
+	max-width: 100%; /* Динамическая ширина */
+	height: auto; /* Динамическая высота */
+}
