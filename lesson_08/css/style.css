@@ -6,6 +6,10 @@ body {
 	background-color: #333;
 }
 
+body a {
+	text-decoration: underline;
+}
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
@@ -84,9 +88,6 @@ picture {
 
 
 
-
-
-
 img.test-1 {
 	max-width: 1432px;
 	width: 100%;
@@ -99,7 +100,9 @@ img.test-1 {
 
 
 
-
+.images img{
+	max-width: 570px;
+}
 
 
 
