@@ -1,21 +1,23 @@
 @import url("reset.css");
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font:18px/2 Arial, Helvetica, sans-serif;
 	color: #fff;
 	background-color: #333;
 }
-
 body a {
+	color: #4e77fd;
 	text-decoration: underline;
 }
-
+body a:hover {
+	text-decoration: none;
+}
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 }
 .header {
-	padding: 40px 20px;
+	padding: 30px 20px;
 	border-bottom: 1px solid #000;
 	background-color: #6f6f6f;
 }
@@ -29,25 +31,21 @@ h1 {
 	padding: 80px 15px;
 	margin: 0 auto;
 }
-
-
-.page h2 {
-	font: 24px/1.16 Arial, Helvetica, sans-serif;
-	color: #fff;
+h2 {
 	margin-bottom: 40px;
+	font: 700 24px/1.16 Arial, Helvetica, sans-serif;
+	color: #fff;
+	
 }
 .list {
-	margin-bottom: 50px;
-}
-
-.item {
 	font-size: 0;
+}
+.list .item {
+	width: 600px;
+	display: inline-block;
 	margin-bottom: 40px;
 }
-.item:last-child {
-	margin-bottom: 0;
-}
-.item .image {
+.list .image {
 	display: inline-block;
 	width: 200px;
 	height: 200px;
@@ -55,84 +53,57 @@ h1 {
 	line-height: 200px;
 	text-align: center;
 	border: 1px solid black;
+	border-radius: 8px;
 }
-.item .image img {
+.list .image img {
 	vertical-align: middle;
 }
-.item .image.size-1 img {
-	max-width: 80px;
-	width: 100%;
-}
-.item .description {
+.list .description {
 	display: inline-block;
-	width: 100%;
-	margin-left: -200px;
-	padding-left: 250px;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 20px;
 	vertical-align: middle;
 	font-size: 18px;
-	line-height: 2;
-	display: inline-block;
 }
-
-
-
-
-
+.list-wide {
+	margin-bottom: 80px;
+}
+.list-wide .item {
+	padding: 40px 0;
+	border-top: 1px solid black;
+}
+.list-wide .image {
+	margin-bottom: 30px;
+}
+.list-wide .description {
+	margin-bottom: -15px;
+}
+.result {
+	margin-bottom: 100px;
+}
+.result:last-child {
+	margin-bottom: 0;
+}
 picture {
 	display: block;
 	margin-bottom: 50px;
 }
-
-
-
-
-
-
-img.test-1 {
-	max-width: 1432px;
-	width: 100%;
-}
-
-
-
-
-
-
-
-
-.images img{
-	max-width: 570px;
-}
-
-
-
-
-.image2 {
-	width: 200px;
-	height: 200px;
+.info-block {
 	margin-bottom: 40px;
-	text-align: center; /* Центрируем по горизонтали */
-	border: 1px solid black; /* Для наглядности */
-	font-size: 0; /* Убираем пробелы между строчными элементами */
 }
-
-.image2 .helper {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle; /* Центрирование по вертикали */
+.info-block:last-child {
+	margin-bottom: 0;
 }
-
-.image2 img {
-	display: inline-block; /* Делаем изображение строчно-блочным элементом */
-	vertical-align: middle; /* Центрируем изображение по вертикали */
-	max-width: 100%; /* Динамическая ширина */
-	height: auto; /* Динамическая высота */
+.info-block > * {
+	margin-bottom: 20px;
 }
-
-
-
-
-
+.info-block img {
+	margin-bottom: 30px;
+}
+.info-block > *:last-child {
+	margin-bottom: 0;
+}
 .footer {
 	padding: 25px 15px;
 	text-align: center;
