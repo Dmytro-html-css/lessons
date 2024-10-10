@@ -16,11 +16,17 @@ body {
 	
 }
 .header__title {
+	padding: 5px 20px;
 	text-align: center;
 	font: 700 36px/1.5 Arial, Helvetica, sans-serif;
 	color: #000000;
+	border-radius: 50px;
+	border: 2px solid #000;
+	background-color: #fff;
 }
 .main {
+	padding: 40px 0;
+	border-top: 1px solid #000;
 	background-color: #fdf0e9;
 }
 [class*="__container"] {
